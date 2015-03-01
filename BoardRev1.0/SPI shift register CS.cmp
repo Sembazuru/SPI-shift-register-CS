@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-31 BZR 5247)-product   date = 12/24/2014 12:07:17 PM
+
+BeginCmp
+TimeStamp = /54990510;
+Reference = C1;
+ValeurCmp = 0.1µF;
+IdModule  = ipc-7251TH Standard:CAPRR254W51L508T318H660P;
+EndCmp
+
+BeginCmp
+TimeStamp = /54990590;
+Reference = C2;
+ValeurCmp = 0.1µF;
+IdModule  = ipc-7251TH Standard:CAPRR254W51L508T318H660P;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498B500;
+Reference = J1;
+ValeurCmp = CONN_06;
+IdModule  = ipc-7251TH Standard:HDRV6W64P254_1X6_1524X254X1016P;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498FE9A;
+Reference = J2;
+ValeurCmp = CONN_06;
+IdModule  = ipc-7251TH Standard:HDRV6W64P254_1X6_1524X254X1016P;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498FF2C;
+Reference = J3;
+ValeurCmp = CONN_06;
+IdModule  = ipc-7251TH Standard:HDRV6W64P254_1X6_1524X254X1016P;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498FF48;
+Reference = J4;
+ValeurCmp = CONN_06;
+IdModule  = ipc-7251TH Standard:HDRV6W64P254_1X6_1524X254X1016P;
+EndCmp
+
+BeginCmp
+TimeStamp = /54990004;
+Reference = J5;
+ValeurCmp = CONN_06;
+IdModule  = ipc-7251TH Standard:HDRV6W64P254_1X6_1524X254X1016P;
+EndCmp
+
+BeginCmp
+TimeStamp = /54990020;
+Reference = J6;
+ValeurCmp = CONN_06;
+IdModule  = ipc-7251TH Standard:HDRV6W64P254_1X6_1524X254X1016P;
+EndCmp
+
+BeginCmp
+TimeStamp = /5499003C;
+Reference = J7;
+ValeurCmp = CONN_06;
+IdModule  = ipc-7251TH Standard:HDRV6W64P254_1X6_1524X254X1016P;
+EndCmp
+
+BeginCmp
+TimeStamp = /54990058;
+Reference = J8;
+ValeurCmp = CONN_06;
+IdModule  = ipc-7251TH Standard:HDRV6W64P254_1X6_1524X254X1016P;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498B246;
+Reference = J9;
+ValeurCmp = CONN_07;
+IdModule  = ipc-7251TH Standard:HDRV7W64P254_1X7_1778X254X1016P;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498B1FD;
+Reference = J10;
+ValeurCmp = CONN_07;
+IdModule  = ipc-7251TH Standard:HDRV7W64P254_1X7_1778X254X1016P;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A2FE9;
+Reference = MH1;
+ValeurCmp = #2 Free Fit;
+IdModule  = ipc-7251TH Standard:MTGP635H244V8P;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A3013;
+Reference = MH2;
+ValeurCmp = #2 Free Fit;
+IdModule  = ipc-7251TH Standard:MTGNP635H244Z635P;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A32DE;
+Reference = MH3;
+ValeurCmp = #2 Free Fit;
+IdModule  = ipc-7251TH Standard:MTGNP635H244Z635P;
+EndCmp
+
+BeginCmp
+TimeStamp = /549A330E;
+Reference = MH4;
+ValeurCmp = #2 Free Fit;
+IdModule  = ipc-7251TH Standard:MTGNP635H244Z635P;
+EndCmp
+
+BeginCmp
+TimeStamp = /549942F8;
+Reference = RN1;
+ValeurCmp = 10kΩ;
+IdModule  = ipc-7251TH Standard:SIP249W55P254L2261H495Q9C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498F873;
+Reference = U1;
+ValeurCmp = 74HC595;
+IdModule  = ipc-7251TH Standard:DIP762W52P254L2159H381Q16C;
+EndCmp
+
+BeginCmp
+TimeStamp = /5498F8C3;
+Reference = U2;
+ValeurCmp = 74HC257;
+IdModule  = ipc-7251TH Standard:DIP762W52P254L2159H381Q16C;
+EndCmp
+
+EndListe
