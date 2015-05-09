@@ -24,8 +24,8 @@
  *  D6 =   XX (Not used)
  *  D7 =   XX (Not used)
  *  D8 =   XX (Not used)
- *  D9 = dCS (shift register board input header pin 3)
- *  D10 = rCS (shift register board input header pin 4)
+ *  D9 = rCS (shift register board input header pin 3)
+ *  D10 = dCS (shift register board input header pin 4)
  *  D11 = MOSI (shift register board input header pin 5)
  *  D12 = MISO (shift register board input header pin 6)
  *  D13 = SCK (shift register board input header pin 7)
@@ -41,8 +41,8 @@
 #include <SPI.h>
 
 // The Chip Select signal on the SPI bus is a low active signal.
-const byte dCS = 10; // dCD stands for "Device Chip Select", meaning enable the output of the shift register to assert the address stored in it.
-const byte rCS = 9; // rCD stands for "Register Chip Select", meaning the CS pin to load a new address into the shift register.
+const byte dCS = 10; // dCS stands for "Device Chip Select", meaning enable the output of the shift register to assert the address stored in it.
+const byte rCS = 9; // rCS stands for "Register Chip Select", meaning the CS pin to load a new address into the shift register.
 const byte addresses[] // An array of addresses to select to make non-sequential device activation order easier.
 {
   0b11111110, // This position of the 0 is for MSBFIRST = J1, and for LSBFIRST = J8
