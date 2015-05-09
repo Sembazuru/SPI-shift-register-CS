@@ -60,6 +60,8 @@ void setup()
   Serial.begin(115200); // Change this to whatever your like running your Serial Monitor at.
   while (!Serial); // Wait for serial port to connect. Needed for Leonardo only.
   delay(1000); // 1 second chosen arbitrarily to allow time for the ERW versions of the IDE time to automagically open the Serial Monitor.
+  Serial.println(F("Board_Checkout.ino"));  // so we know what sketch is running
+  Serial.println();
 
   // set the Chip Select pins as outputs.
   pinMode (dCS, OUTPUT);
