@@ -5,6 +5,7 @@
  *  to the shift register.
  *
  * By Chris "Sembazuru" Elliott, SembazuruCDE (at) GMail.com
+ * 2015-05-10
  *
  * Sample program to test SPI register using 4 128x32 SPI OLED monochrome display using Adafruit's SSD1306 library,
  * and 4 thermocouple amplifiers using Adafruit's MAX31855 library.
@@ -163,4 +164,3 @@ byte initDisplayCS()
   }
   return initDispCS;
 }
-
