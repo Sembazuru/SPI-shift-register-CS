@@ -89,7 +89,7 @@ void setup()
   pinMode(device_CS, OUTPUT);
 
   // Display initialize
-  setRegisterCS(initDisplayCS()); // Select all the displays to initializing all of them with the shared reset pin.
+  setRegisterCS(allDisplaysCS()); // Select all the displays to initializing all of them with the shared reset pin.
   // by default, we'll generate the high voltage from the 3.3v line internally! (neat!)
   display.begin(SSD1306_SWITCHCAPVCC);
   // init done
@@ -124,22 +124,27 @@ void loop()
     {
       previousScan = currentMillis;
       setRegisterCS(tcDevices[i]); // Select the next thermocouple amplifier
-      double TemperatureC = thermocouple.readCelsius(); // Library returns a double. On ATMEGA based Arduinos this is the same as float, but other boards (like Due) this might be double the width of a float.
+      double TemperatureC = thermocouple.readCelsius(); // Library returns a double. On AVR based Arduinos this is the same as float, but other boards (like Due) this might be double the width of a float.
+      double TemperatureF = thermocouple.readFarenheit(); // Library returns a double. On AVR based Arduinos this is the same as float, but other boards (like Due) this might be double the width of a float.
 
       // Show on the Serial Monitor
       Serial.print(F("Device "));
       Serial.print(i);
       Serial.print(' ');
       Serial.print(TemperatureC, 2);
-      Serial.println('C');
+      Serial.print(F("C "));
+      Serial.print(TemperatureF, 2);
+      Serial.println('F');
 
       // Show on a display.
       setRegisterCS(displayDevices[i]); // Select the next OLED display
-      display.setTextSize(3);
+      display.setTextSize(2);
       display.setTextColor(WHITE);
       display.setCursor(0, 0);
       display.print(TemperatureC, 2);
-      display.print('C');
+      display.println('C');
+      display.print(TemperatureF, 2);
+      display.print('F');
       display.display(); // Send the buffer to the currently selected display.
 
       display.clearDisplay(); // Flush the display buffer
@@ -148,6 +153,8 @@ void loop()
   }
 }
 
+// Setup a byte in the shift register using SPI.
+// Future enhancement might be to make it universal by taking a pointer and looping the SPI.transfer() based on the size of the variable at the pointer.
 void setRegisterCS(byte rCSbitfield)
 {
   digitalWrite(register_CS, LOW); // Assert rCS
@@ -155,12 +162,14 @@ void setRegisterCS(byte rCSbitfield)
   digitalWrite(register_CS, HIGH); // Release rCS
 }
 
-byte initDisplayCS()
+// Address all the displays so they are all active to recieve data at the same time.
+// This technique would be less than useless on devices that send data...
+byte allDisplaysCS()
 {
-  byte initDispCS = 0b11111111;
+  byte initDispCS = 0b11111111; // Chip Select is LOW active. Need to start with all bits HIGH so the following loop can change the desired bits to LOW.
   for (byte i = 0; i < qtyDisp; i++)
   {
-    initDispCS = initDispCS & displayDevices[i];
+    initDispCS = initDispCS & displayDevices[i]; // Use bitwise AND. Subtraction would do the same thing, but the AND is more indicitive of the intent.
   }
   return initDispCS;
 }
