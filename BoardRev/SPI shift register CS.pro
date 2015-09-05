@@ -1,4 +1,4 @@
-update=2015-02-24 23:42:02
+update=2015-09-04 23:13:00
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,46 +6,9 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[eeschema]
-version=1
-LibDir=C:/Users/Public/Public Development/KiCAD_share/MyLibrary;C:/Users/Public/Public Development/KiCAD_share/MyLibrary/doc;C:/Users/Public/Public Development/KiCAD_share/MyTemplate
-[eeschema/libraries]
-LibName1=NewUnsorted
-LibName2=Arduino
-LibName3=logos
-LibName4=power
-LibName5=device
-LibName6=transistors
-LibName7=conn
-LibName8=linear
-LibName9=regul
-LibName10=74xx
-LibName11=cmos4000
-LibName12=adc-dac
-LibName13=memory
-LibName14=xilinx
-LibName15=special
-LibName16=microcontrollers
-LibName17=dsp
-LibName18=microchip
-LibName19=analog_switches
-LibName20=motorola
-LibName21=texas
-LibName22=intel
-LibName23=audio
-LibName24=interface
-LibName25=digital-audio
-LibName26=philips
-LibName27=display
-LibName28=cypress
-LibName29=siliconi
-LibName30=opto
-LibName31=atmel
-LibName32=contrib
-LibName33=valves
 [pcbnew]
 version=1
-PageLayoutDescrFile=C:/Users/Public/Public Development/KiCAD_share/MyTemplate/default.kicad_wks
+PageLayoutDescrFile=D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate/default.kicad_wks
 LastNetListRead=SPI shift register CS.net
 UseCmpFile=0
 PadDrill=0.6699999999999999
@@ -65,7 +28,7 @@ BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Users/Public/Public Development/KiCAD_share/MyTemplate/default.kicad_wks
+PageLayoutDescrFile=D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate/default.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -78,3 +41,39 @@ RptLab=1
 LabSize=30
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=D:/Libraries/PublicDevelopment/KiCAD_share/MyLibrary;D:/Libraries/PublicDevelopment/KiCAD_share/MyLibrary/doc;D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate
+[eeschema/libraries]
+LibName1=NewUnsorted
+LibName2=Arduino
+LibName3=logos
+LibName4=power
+LibName5=device
+LibName6=transistors
+LibName7=conn
+LibName8=linear
+LibName9=regul
+LibName10=74xx
+LibName11=cmos4000
+LibName12=adc-dac
+LibName13=memory
+LibName14=xilinx
+LibName15=microcontrollers
+LibName16=dsp
+LibName17=microchip
+LibName18=analog_switches
+LibName19=motorola
+LibName20=texas
+LibName21=intel
+LibName22=audio
+LibName23=interface
+LibName24=digital-audio
+LibName25=philips
+LibName26=display
+LibName27=cypress
+LibName28=siliconi
+LibName29=opto
+LibName30=atmel
+LibName31=contrib
+LibName32=valves
