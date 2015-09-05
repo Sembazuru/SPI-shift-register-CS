@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source "C:/Users/Chris/Development/KiCad/SPI shift register CS/BoardRev1.0/SPI shift register CS.sch")
+    (source "C:/Users/Chris/Development/KiCad/SPI shift register CS/BoardRev/SPI shift register CS.sch")
     (date "2015-02-24 01:42:44")
     (tool "Eeschema (2015-01-30 BZR 5397)-product"))
   (components
