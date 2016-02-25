@@ -1,0 +1,12 @@
+(module "ipc-7251TH Standard:MTGNP635H244Z635P" (layer F.Cu) (tedit 549A5FC8)
+  (tags MTGNP#2Free)
+  (fp_text reference MH4 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_text value "#2 Free Fit" (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 0 3.175) (layer F.SilkS) (width 0.381))
+  (pad "" np_thru_hole circle (at 0 0) (size 2.44 2.44) (drill 2.44) (layers *.Cu *.Mask F.SilkS)
+    (clearance 1.995))
+)
