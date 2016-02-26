@@ -1,3 +1,7 @@
 (fp_lib_table
   (lib (name Footprints)(type KiCad)(uri "$(KIPRJMOD)\\Footprints.pretty")(options "")(descr ""))
+  (lib (name Panasonic-EXB-ERJ)(type Eagle)(uri "$(KIPRJMOD)\\Eagle_parts\\Panasonic-EXB-ERJ.lbr")(options "")(descr ""))
+  (lib (name AVX-06035C104KAT2A)(type Eagle)(uri "$(KIPRJMOD)\\Eagle_parts\\AVX-06035C104KAT2A.lbr")(options "")(descr ""))
+  (lib (name NXP-74HC595PW_118)(type Eagle)(uri "$(KIPRJMOD)\\Eagle_parts\\NXP-74HC595PW_118.lbr")(options "")(descr ""))
+  (lib (name TI-SN74HC257PW)(type Eagle)(uri "$(KIPRJMOD)\\Eagle_parts\\TI-SN74HC257PW.lbr")(options "")(descr ""))
 )

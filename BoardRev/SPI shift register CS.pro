@@ -1,4 +1,4 @@
-update=2015-09-04 23:13:00
+update=2016-02-26 08:51:31
 version=1
 last_client=kicad
 [cvpcb]
@@ -39,8 +39,6 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=30
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=D:/Libraries/PublicDevelopment/KiCAD_share/MyLibrary;D:/Libraries/PublicDevelopment/KiCAD_share/MyLibrary/doc;D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate
@@ -77,3 +75,5 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
+[general]
+version=1

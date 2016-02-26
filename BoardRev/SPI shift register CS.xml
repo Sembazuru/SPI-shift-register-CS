@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Libraries/MyDevelopment/KiCad/SPI shift register CS/BoardRev/SPI shift register CS.sch</source>
+    <date>2016-02-26 08:43:33</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SPI Shift Register 8 Device Select</title>
+        <company>Sembazuru Circuits</company>
+        <rev>2.0.0</rev>
+        <date>2016-02-25</date>
+        <source>SPI shift register CS.sch</source>
+        <comment number="1" value="Intended to be released as OSHW"/>
+        <comment number="2" value="v1.0 - First iteration"/>
+        <comment number="3" value="v2.0.0 - Convert part numbers and footprints to SMT versions (except for headers)."/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J10">
+      <value>CONN_07</value>
+      <footprint>ipc-7251TH Standard:HDRV7W64P254_1X7_1778X254X1016P</footprint>
+      <fields>
+        <field name="Note">Daisy Chain</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_07"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5498B1FD</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>CONN_07</value>
+      <footprint>ipc-7251TH Standard:HDRV7W64P254_1X7_1778X254X1016P</footprint>
+      <fields>
+        <field name="Note">Input</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_07"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5498B246</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_06</value>
+      <footprint>ipc-7251TH-standard:HDRV6W64P254_1X6_1524X254X1016P</footprint>
+      <fields>
+        <field name="Note">SPI 1</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5498B500</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74HC595</value>
+      <footprint>NXP-74HC595PW_118:SOP65P640X110-16N</footprint>
+      <datasheet>https://octopart.com/sn74hc595pwr-texas+instruments-879136</datasheet>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="Mfg">Texas Instruments</field>
+        <field name="MfgPart">SN74HC595PWR</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="74HC595"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5498F873</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74HC257</value>
+      <footprint>TI-SN74HC257PW:SOP65P640X120-16N</footprint>
+      <datasheet>https://octopart.com/sn74hc257pw-texas+instruments-789437</datasheet>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="Mfg">Texas Instruments</field>
+        <field name="MfgPart">SN74HC257PW</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="74HC257"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5498F8C3</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_06</value>
+      <footprint>ipc-7251TH-standard:HDRV6W64P254_1X6_1524X254X1016P</footprint>
+      <fields>
+        <field name="Note">SPI 2</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5498FE9A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_06</value>
+      <footprint>ipc-7251TH-standard:HDRV6W64P254_1X6_1524X254X1016P</footprint>
+      <fields>
+        <field name="Note">SPI 3</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5498FF2C</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_06</value>
+      <footprint>ipc-7251TH-standard:HDRV6W64P254_1X6_1524X254X1016P</footprint>
+      <fields>
+        <field name="Note">SPI 4</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5498FF48</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN_06</value>
+      <footprint>ipc-7251TH-standard:HDRV6W64P254_1X6_1524X254X1016P</footprint>
+      <fields>
+        <field name="Note">SPI 5</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54990004</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>CONN_06</value>
+      <footprint>ipc-7251TH-standard:HDRV6W64P254_1X6_1524X254X1016P</footprint>
+      <fields>
+        <field name="Note">SPI 6</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54990020</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>CONN_06</value>
+      <footprint>ipc-7251TH-standard:HDRV6W64P254_1X6_1524X254X1016P</footprint>
+      <fields>
+        <field name="Note">SPI 7</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5499003C</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>CONN_06</value>
+      <footprint>ipc-7251TH-standard:HDRV6W64P254_1X6_1524X254X1016P</footprint>
+      <fields>
+        <field name="Note">SPI 8</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54990058</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1µF</value>
+      <footprint>AVX-06035C104KAT2A:CAPC1608X90N</footprint>
+      <datasheet>https://octopart.com/common-parts-library#CPL-CAP-X7R-0603-100NF-50V</datasheet>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-0603-100NF-50V</field>
+        <field name="Mfg">AVX</field>
+        <field name="MfgPart">06035C104KAT2A</field>
+        <field name="Mfg2">Kemet</field>
+        <field name="Mfg2Part">C0603C104K5RACTU</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54990510</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1µF</value>
+      <footprint>AVX-06035C104KAT2A:CAPC1608X90N</footprint>
+      <datasheet>https://octopart.com/common-parts-library#CPL-CAP-X7R-0603-100NF-50V</datasheet>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-0603-100NF-50V</field>
+        <field name="Mfg">AVX</field>
+        <field name="MfgPart">06035C104KAT2A</field>
+        <field name="Mfg2">Kemet</field>
+        <field name="Mfg2Part">C0603C104K5RACTU</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CE7844</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>10kΩ</value>
+      <footprint>CDE_misc:RESCAV_EXBA-10N</footprint>
+      <datasheet>https://octopart.com/exb-a10p103j-panasonic-42270834</datasheet>
+      <fields>
+        <field name="CommonPartLibrary">CPL-ARRB-2512-10KOHM-0.062W*</field>
+        <field name="Mfg">Panasonic</field>
+        <field name="MfgPart">EXB-A10P103J</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RN8BUSDIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CFC6D2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="NewUnsorted" part="74HC257">
+      <description>Quad 2-input multiplexer; 3-state</description>
+      <docs>74xx/74HC_HCT257.pdf</docs>
+      <footprints>
+        <fp>DIP*Q16?</fp>
+        <fp>SOIC*-16?</fp>
+        <fp>SOP*-16?</fp>
+        <fp>SSOP*-16?</fp>
+        <fp>TSOP*-16?</fp>
+        <fp>TSSOP*-16?</fp>
+        <fp>VSOP*-16?</fp>
+        <fp>SON*-16?</fp>
+        <fp>PSON*-16?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC257</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="input"/>
+        <pin num="2" name="1I0" type="input"/>
+        <pin num="3" name="1I1" type="input"/>
+        <pin num="4" name="1Y" type="output"/>
+        <pin num="5" name="2I0" type="input"/>
+        <pin num="6" name="2I1" type="input"/>
+        <pin num="7" name="2Y" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="3Y" type="output"/>
+        <pin num="10" name="3I1" type="input"/>
+        <pin num="11" name="3I0" type="input"/>
+        <pin num="12" name="4Y" type="output"/>
+        <pin num="13" name="4I1" type="input"/>
+        <pin num="14" name="4I0" type="input"/>
+        <pin num="15" name="~OE" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="74HC595">
+      <aliases>
+        <alias>74LS595</alias>
+        <alias>74HCT595</alias>
+      </aliases>
+      <description>Shift Register 8 bits, serial in, parallel out,  tri-state</description>
+      <docs>74xx/74HC595.pdf</docs>
+      <footprints>
+        <fp>DIP*Q16?</fp>
+        <fp>SOIC*-16?</fp>
+        <fp>SOP*-16?</fp>
+        <fp>SSOP*-16?</fp>
+        <fp>TSOP*-16?</fp>
+        <fp>TSSOP*-16?</fp>
+        <fp>VSOP*-16?</fp>
+        <fp>SON*-16?</fp>
+        <fp>PSON*-16?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q1" type="3state"/>
+        <pin num="2" name="Q2" type="3state"/>
+        <pin num="3" name="Q3" type="3state"/>
+        <pin num="4" name="Q4" type="3state"/>
+        <pin num="5" name="Q5" type="3state"/>
+        <pin num="6" name="Q6" type="3state"/>
+        <pin num="7" name="Q7" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Q'7" type="output"/>
+        <pin num="10" name="~SCLR" type="input"/>
+        <pin num="11" name="SCK" type="input"/>
+        <pin num="12" name="LATCH" type="input"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="Q0" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="CAP_NP">
+      <description>Capacitor, non polarized</description>
+      <footprints>
+        <fp>CAP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_NP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="CONN_06">
+      <description>Generic connector symbol</description>
+      <footprints>
+        <fp>HDR*_1X6_*</fp>
+        <fp>HDR*_2X3_*</fp>
+        <fp>3M_*</fp>
+        <fp>AGILENT_*</fp>
+        <fp>AIRBORNE_*</fp>
+        <fp>AMPHENOL_*</fp>
+        <fp>AVX_*</fp>
+        <fp>BERG_*</fp>
+        <fp>BLOCKMASTER_*</fp>
+        <fp>CUI-STACK_*</fp>
+        <fp>JOHNSON_*</fp>
+        <fp>FCI_*</fp>
+        <fp>FUJITSU_*</fp>
+        <fp>HIROSE_*</fp>
+        <fp>ITT_*</fp>
+        <fp>JALCO_*</fp>
+        <fp>JWT_*</fp>
+        <fp>JST_*</fp>
+        <fp>KEYSTONE_*</fp>
+        <fp>KYCON_*</fp>
+        <fp>LEMO_*</fp>
+        <fp>MILL-MAX_*</fp>
+        <fp>MOLEX_*</fp>
+        <fp>NEUTRIK_*</fp>
+        <fp>PHOENIX_*</fp>
+        <fp>PULSE_*</fp>
+        <fp>RIA_*</fp>
+        <fp>SAMTEC_*</fp>
+        <fp>SIEMENS_*</fp>
+        <fp>SPEEDTECH_*</fp>
+        <fp>STEWART_*</fp>
+        <fp>SULLINS_*</fp>
+        <fp>SWITCHCRAFT_*</fp>
+        <fp>TYCO_*</fp>
+        <fp>YAMAICHI_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_06</field>
+        <field name="Note">Connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="CONN_07">
+      <description>Generic connector symbol</description>
+      <footprints>
+        <fp>HDR*_1X7_*</fp>
+        <fp>3M_*</fp>
+        <fp>AGILENT_*</fp>
+        <fp>AIRBORNE_*</fp>
+        <fp>AMPHENOL_*</fp>
+        <fp>AVX_*</fp>
+        <fp>BERG_*</fp>
+        <fp>BLOCKMASTER_*</fp>
+        <fp>CUI-STACK_*</fp>
+        <fp>JOHNSON_*</fp>
+        <fp>FCI_*</fp>
+        <fp>FUJITSU_*</fp>
+        <fp>HIROSE_*</fp>
+        <fp>ITT_*</fp>
+        <fp>JALCO_*</fp>
+        <fp>JWT_*</fp>
+        <fp>JST_*</fp>
+        <fp>KEYSTONE_*</fp>
+        <fp>KYCON_*</fp>
+        <fp>LEMO_*</fp>
+        <fp>MILL-MAX_*</fp>
+        <fp>MOLEX_*</fp>
+        <fp>NEUTRIK_*</fp>
+        <fp>PHOENIX_*</fp>
+        <fp>PULSE_*</fp>
+        <fp>RIA_*</fp>
+        <fp>SAMTEC_*</fp>
+        <fp>SIEMENS_*</fp>
+        <fp>SPEEDTECH_*</fp>
+        <fp>STEWART_*</fp>
+        <fp>SULLINS_*</fp>
+        <fp>SWITCHCRAFT_*</fp>
+        <fp>TYCO_*</fp>
+        <fp>YAMAICHI_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_07</field>
+        <field name="Note">Connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="RN8BUSDIP">
+      <description>Resistor Network, Bussed, 8 elements, DIP</description>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">RN8BUSDIP</field>
+        <field name="CommonPartLibrary">CPL-</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1" type="passive"/>
+        <pin num="2" name="R2" type="passive"/>
+        <pin num="3" name="R3" type="passive"/>
+        <pin num="4" name="R4" type="passive"/>
+        <pin num="5" name="C" type="passive"/>
+        <pin num="6" name="R5" type="passive"/>
+        <pin num="7" name="R6" type="passive"/>
+        <pin num="8" name="R7" type="passive"/>
+        <pin num="9" name="R8" type="passive"/>
+        <pin num="10" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="NewUnsorted">
+      <uri>D:\Libraries\PublicDevelopment\KiCAD_share\MyLibrary\NewUnsorted.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J1" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J8" pin="2"/>
+      <node ref="U2" pin="15"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J10" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J6" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="2" name="/MOSI/Ser">
+      <node ref="J10" pin="5"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="3" name="/SCKdelayed">
+      <node ref="J10" pin="3"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="4" name="/MISO">
+      <node ref="J3" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J7" pin="4"/>
+      <node ref="J8" pin="4"/>
+      <node ref="J9" pin="4"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J10" pin="4"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="5" name="/~dCS">
+      <node ref="J10" pin="6"/>
+      <node ref="J9" pin="6"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="7" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="8" name="/~rCS">
+      <node ref="J10" pin="7"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J9" pin="7"/>
+    </net>
+    <net code="9" name="/MOSI">
+      <node ref="U2" pin="13"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J9" pin="5"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J8" pin="5"/>
+    </net>
+    <net code="10" name="/SCK">
+      <node ref="J9" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J7" pin="3"/>
+      <node ref="U2" pin="11"/>
+      <node ref="J5" pin="3"/>
+      <node ref="U2" pin="10"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="11" name="VCC">
+      <node ref="J9" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="RN1" pin="5"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="J5" pin="1"/>
+      <node ref="RN1" pin="10"/>
+    </net>
+    <net code="12" name="/SerChain">
+      <node ref="U2" pin="14"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="13" name="/~CS8">
+      <node ref="U1" pin="7"/>
+      <node ref="J8" pin="6"/>
+      <node ref="RN1" pin="2"/>
+    </net>
+    <net code="14" name="/~CS7">
+      <node ref="RN1" pin="9"/>
+      <node ref="J7" pin="6"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="15" name="/~CS6">
+      <node ref="RN1" pin="3"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="16" name="/~CS5">
+      <node ref="RN1" pin="8"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="17" name="/~CS4">
+      <node ref="J4" pin="6"/>
+      <node ref="RN1" pin="4"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="18" name="/~CS3">
+      <node ref="J3" pin="6"/>
+      <node ref="RN1" pin="7"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="19" name="/~CS2">
+      <node ref="U1" pin="1"/>
+      <node ref="J2" pin="6"/>
+      <node ref="RN1" pin="6"/>
+    </net>
+    <net code="20" name="/~CS1">
+      <node ref="U1" pin="15"/>
+      <node ref="J1" pin="6"/>
+      <node ref="RN1" pin="1"/>
+    </net>
+  </nets>
+</export>

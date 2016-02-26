@@ -1,0 +1,87 @@
+# Created by Ultra Librarian Gold 5.3.37 Copyright © 1999-2010
+# Tanvir Mohammed, Premier Farnell
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'CAPC1608X90N.pac';
+Layer 1;
+Smd '1' 26 37 -0 R0 (-28 0);
+Layer 1;
+Smd '2' 26 37 -0 R0 (28 0);
+Layer 1;
+Layer 25;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-136 50);
+Layer 27;
+Change Size 82;
+Change Ratio 10;
+Text '>VALUE' SR0 (-136 -125);
+Layer 51;
+Wire 0 (-15 -19) (-15 19);
+Wire 0 (-15 19) (-34 19);
+Wire 0 (-34 19) (-34 -19);
+Wire 0 (-34 -19) (-15 -19);
+Wire 0 (15 19) (15 -19);
+Wire 0 (15 -19) (34 -19);
+Wire 0 (34 -19) (34 19);
+Wire 0 (34 19) (15 19);
+Wire 0 (-34 -19) (34 -19);
+Wire 0 (34 -19) (34 19);
+Wire 0 (34 19) (-34 19);
+Wire 0 (-34 19) (-34 -19);
+
+Edit 'CAPH.sym';
+Layer 94;
+Pin 'C2' Pas None Short R180 Off 1 (300 0);
+Pin 'C1' Pas None Short R0 Off 1 (0 0);
+Wire 8 (137 -75) (137 75);
+Wire 8 (162 -75) (162 75);
+Wire 8 (162 0) (200 0);
+Wire 8 (100 0) (137 0);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>VALUE' SR0 (-223 -368);
+Layer 95;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-36 109);
+
+Edit 'CAPV.sym';
+Layer 94;
+Pin '2' Pas None Short R90 Off 1 (0 -300);
+Pin '1' Pas None Short R270 Off 1 (0 0);
+Wire 8 (-75 -137) (75 -137);
+Wire 8 (-75 -162) (75 -162);
+Wire 8 (0 -162) (0 -200);
+Wire 8 (0 -100) (0 -137);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>VALUE' SR0 (100 -418);
+Layer 95;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (100 -141);
+
+Edit '06035C104KAT2A.dev';
+Prefix 'C';
+Description 'Capacitor 0603';
+Value Off;
+Add CAPH 'A' Next  1 (0 0);
+Package 'CAPC1608X90N';
+Technology '';
+Attribute Supplier 'AVX';
+Attribute MPN '06035C104KAT2A';
+Attribute Value '100nF';
+Attribute Tolerance '±10%';
+Attribute OC_NEWARK '54K2412';
+Attribute OC_FARNELL '1301804';
+Attribute VoltageRating '50V';
+Connect 'A.C1' '1';
+Connect 'A.C2' '2';

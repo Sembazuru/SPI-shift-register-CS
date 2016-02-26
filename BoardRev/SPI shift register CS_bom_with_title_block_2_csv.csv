@@ -1,0 +1,28 @@
+Source,D:/Libraries/MyDevelopment/KiCad/SPI shift register CS/BoardRev/SPI shift register CS.sch
+Kicad Rev,Eeschema 4.0.1-stable
+Generated Date,2016-02-26 08:43:33
+
+Title,SPI Shift Register 8 Device Select
+Company,Sembazuru Circuits
+Revision,2.0.0
+Date Issue,2016-02-25
+Comment,Intended to be released as OSHW
+Comment,v1.0 - First iteration
+Comment,v2.0.0 - Convert part numbers and footprints to SMT versions (except for headers).
+
+Reference,Value,Note,CommonPartLibrary,Mfg,MfgPart,Mfg2,Mfg2Part,Library,Library Ref
+J10,CONN_07,Daisy Chain,,,,,,NewUnsorted,CONN_07
+J9,CONN_07,Input,,,,,,NewUnsorted,CONN_07
+J1,CONN_06,SPI 1,,,,,,NewUnsorted,CONN_06
+U1,74HC595,,CPL-,Texas Instruments,SN74HC595PWR,,,NewUnsorted,74HC595
+U2,74HC257,,CPL-,Texas Instruments,SN74HC257PW,,,NewUnsorted,74HC257
+J2,CONN_06,SPI 2,,,,,,NewUnsorted,CONN_06
+J3,CONN_06,SPI 3,,,,,,NewUnsorted,CONN_06
+J4,CONN_06,SPI 4,,,,,,NewUnsorted,CONN_06
+J5,CONN_06,SPI 5,,,,,,NewUnsorted,CONN_06
+J6,CONN_06,SPI 6,,,,,,NewUnsorted,CONN_06
+J7,CONN_06,SPI 7,,,,,,NewUnsorted,CONN_06
+J8,CONN_06,SPI 8,,,,,,NewUnsorted,CONN_06
+C1,0.1µF,,CPL-CAP-X7R-0603-100NF-50V,AVX,06035C104KAT2A,Kemet,C0603C104K5RACTU,NewUnsorted,CAP_NP
+C2,0.1µF,,CPL-CAP-X7R-0603-100NF-50V,AVX,06035C104KAT2A,Kemet,C0603C104K5RACTU,NewUnsorted,CAP_NP
+RN1,10kΩ,,CPL-ARRB-2512-10KOHM-0.062W*,Panasonic,EXB-A10P103J,,,NewUnsorted,RN8BUSDIP
