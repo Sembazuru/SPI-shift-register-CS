@@ -1,4 +1,4 @@
-update=2016-02-26 08:51:31
+update=2016-02-27 01:54:15
 version=1
 last_client=kicad
 [cvpcb]
@@ -26,19 +26,6 @@ SolderMaskMinWidth=0.0254
 DrawSegmentWidth=0.2032
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[schematic_editor]
-version=1
-PageLayoutDescrFile=D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate/default.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=30
 [eeschema]
 version=1
 LibDir=D:/Libraries/PublicDevelopment/KiCAD_share/MyLibrary;D:/Libraries/PublicDevelopment/KiCAD_share/MyLibrary/doc;D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate
@@ -77,3 +64,13 @@ LibName31=contrib
 LibName32=valves
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate/default.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=30
