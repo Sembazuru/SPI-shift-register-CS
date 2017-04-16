@@ -38,13 +38,13 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "SPI Shift Register 8 Device Select"
-Date "2016-02-25"
-Rev "2.0.0"
+Date "2016-04-16"
+Rev "2.0.1"
 Comp "Sembazuru Circuits"
 Comment1 "Intended to be released as OSHW"
 Comment2 "v1.0 - First iteration"
 Comment3 "v2.0.0 - Convert part numbers and footprints to SMT versions (except for headers)."
-Comment4 ""
+Comment4 "v2.0.1 - Add additional component fields in the spirit of RheingoldHeavy's BOM management"
 $EndDescr
 $Comp
 L CONN_07 J10
@@ -54,7 +54,20 @@ F 0 "J10" H 10200 3550 60  0000 L CNN
 F 1 "CONN_07" V 10350 3150 60  0001 C CNN
 F 2 "ipc-7251TH Standard:HDRV7W64P254_1X7_1778X254X1016P" H 10300 3150 60  0001 C CNN
 F 3 "" H 10300 3150 60  0000 C CNN
-F 4 "Daisy Chain" V 10300 3150 60  0000 C CNN "Note"
+F 4 "CPL-" H 10300 3150 60  0001 C CNN "CommonPartLibrary"
+F 5 "Manufacturer Name" H 10300 3150 60  0001 C CNN "MFN"
+F 6 "Manufacturer Part Number" H 10300 3150 60  0001 C CNN "MFP"
+F 7 "JEDEC footprint name" H 10300 3150 60  0001 C CNN "Package ID"
+F 8 "Source1 Part Number" H 10300 3150 60  0001 C CNN "S1PN"
+F 9 "Source1 Product Link" H 10300 3150 60  0001 C CNN "S1PL"
+F 10 "Source2 Part Number" H 10300 3150 60  0001 C CNN "S2PN"
+F 11 "Source2 Product Link" H 10300 3150 60  0001 C CNN "S2PL"
+F 12 "Voltage / Current / Tolerance / Ect specs" H 10300 3150 60  0001 C CNN "Characteristics"
+F 13 "Pin header - Daisy chain output to next board." H 10300 3150 60  0001 C CNN "Description"
+F 14 "Y / N" H 10300 3150 60  0001 C CNN "Critical"
+F 15 "ANY / SPEC" H 10300 3150 60  0001 C CNN "Source"
+F 16 "Explain critera for \"ANY\" Source" H 10300 3150 60  0001 C CNN "Notes"
+F 17 "Daisy Chain" V 10300 3150 60  0000 C CNN "Note"
 	1    10300 3150
 	1    0    0    -1  
 $EndComp
@@ -66,7 +79,20 @@ F 0 "J9" H 600 3550 60  0000 L CNN
 F 1 "CONN_07" V 750 3150 60  0001 C CNN
 F 2 "ipc-7251TH Standard:HDRV7W64P254_1X7_1778X254X1016P" H 700 3150 60  0001 C CNN
 F 3 "" H 700 3150 60  0000 C CNN
-F 4 "Input" V 700 3150 60  0000 C CNN "Note"
+F 4 "CPL-" H 700 3150 60  0001 C CNN "CommonPartLibrary"
+F 5 "Manufacturer Name" H 700 3150 60  0001 C CNN "MFN"
+F 6 "Manufacturer Part Number" H 700 3150 60  0001 C CNN "MFP"
+F 7 "JEDEC footprint name" H 700 3150 60  0001 C CNN "Package ID"
+F 8 "Source1 Part Number" H 700 3150 60  0001 C CNN "S1PN"
+F 9 "Source1 Product Link" H 700 3150 60  0001 C CNN "S1PL"
+F 10 "Source2 Part Number" H 700 3150 60  0001 C CNN "S2PN"
+F 11 "Source2 Product Link" H 700 3150 60  0001 C CNN "S2PL"
+F 12 "Voltage / Current / Tolerance / Ect specs" H 700 3150 60  0001 C CNN "Characteristics"
+F 13 "Pin header - Board input" H 700 3150 60  0001 C CNN "Description"
+F 14 "N" H 700 3150 60  0001 C CNN "Critical"
+F 15 "ANY" H 700 3150 60  0001 C CNN "Source"
+F 16 "Designed for 0.1\" spacing, 0.25\"sq pins." H 700 3150 60  0001 C CNN "Notes"
+F 17 "Input" V 700 3150 60  0000 C CNN "Note"
 	1    700  3150
 	-1   0    0    -1  
 $EndComp
@@ -119,8 +145,8 @@ F 1 "74HC595" H 2650 4650 60  0000 C CNB
 F 2 "NXP-74HC595PW_118:SOP65P640X110-16N" H 2650 4650 60  0001 C CNN
 F 3 "https://octopart.com/sn74hc595pwr-texas+instruments-879136" H 2650 4650 60  0001 C CNN
 F 4 "CPL-" H 2650 4650 60  0001 C CNN "CommonPartLibrary"
-F 5 "Texas Instruments" H 2650 4650 60  0001 C CNN "Mfg"
-F 6 "SN74HC595PWR" H 2650 4650 60  0001 C CNN "MfgPart"
+F 5 "Texas Instruments" H 2650 4650 60  0001 C CNN "MFN"
+F 6 "SN74HC595PWR" H 2650 4650 60  0001 C CNN "MFP"
 	1    2650 4650
 	1    0    0    -1  
 $EndComp
@@ -133,8 +159,8 @@ F 1 "74HC257" H 8450 4500 60  0000 C CNB
 F 2 "TI-SN74HC257PW:SOP65P640X120-16N" H 8450 4600 60  0001 C CNN
 F 3 "https://octopart.com/sn74hc257pw-texas+instruments-789437" H 8450 4600 60  0001 C CNN
 F 4 "CPL-" H 8450 4500 60  0001 C CNN "CommonPartLibrary"
-F 5 "Texas Instruments" H 8450 4500 60  0001 C CNN "Mfg"
-F 6 "SN74HC257PW" H 8450 4500 60  0001 C CNN "MfgPart"
+F 5 "Texas Instruments" H 8450 4500 60  0001 C CNN "MFN"
+F 6 "SN74HC257PW" H 8450 4500 60  0001 C CNN "MFP"
 	1    8450 4500
 	1    0    0    -1  
 $EndComp
@@ -451,10 +477,18 @@ F 1 "0.1µF" H 2050 6840 60  0000 L CNN
 F 2 "AVX-06035C104KAT2A:CAPC1608X90N" H 2000 6900 60  0001 C CNN
 F 3 "https://octopart.com/common-parts-library#CPL-CAP-X7R-0603-100NF-50V" H 2000 6900 60  0001 C CNN
 F 4 "CPL-CAP-X7R-0603-100NF-50V" H 2000 6900 60  0001 C CNN "CommonPartLibrary"
-F 5 "AVX" H 2000 6900 60  0001 C CNN "Mfg"
-F 6 "06035C104KAT2A" H 2000 6900 60  0001 C CNN "MfgPart"
-F 7 "Kemet" H 2000 6900 60  0001 C CNN "Mfg2"
-F 8 "C0603C104K5RACTU" H 2000 6900 60  0001 C CNN "Mfg2Part"
+F 5 "AVX" H 2000 6900 60  0001 C CNN "MFN"
+F 6 "06035C104KAT2A" H 2000 6900 60  0001 C CNN "MFP"
+F 7 "0603 [1608 Metric]" H 2000 6900 60  0001 C CNN "Package ID"
+F 8 "478-5052-1-ND" H 2000 6900 60  0001 C CNN "S1PN"
+F 9 "http://www.digikey.com/product-detail/en/06035C104KAT2A/478-5052-1-ND/" H 2000 6900 60  0001 C CNN "S1PL"
+F 10 "54K2412" H 2000 6900 60  0001 C CNN "S2PN"
+F 11 "http://www.newark.com/avx/06035c104kat2a/ceramic-capacitor-0-1uf-50v-x7r/dp/54K2412" H 2000 6900 60  0001 C CNN "S2PL"
+F 12 "CAP CER 0.1UF 50V 5% X7R 0603" H 2000 6900 60  0001 C CNN "Characteristics"
+F 13 "Capacitor - Bypass" H 2000 6900 60  0001 C CNN "Description"
+F 14 "N" H 2000 6900 60  0001 C CNN "Critical"
+F 15 "ANY" H 2000 6900 60  0001 C CNN "Source"
+F 16 "15WVDC or better, 10% tolerance or better." H 2000 6900 60  0001 C CNN "Notes"
 	1    2000 6900
 	1    0    0    -1  
 $EndComp
@@ -934,22 +968,6 @@ $EndComp
 Text Notes 6850 4250 0    30   ~ 0
 Connect to ground\nusing traces and vias\nto allow end-user\nmodification to\nutilize unused gates.
 $Comp
-L CAP_NP C2
-U 1 1 56CE7844
-P 4100 6900
-F 0 "C2" H 4150 6950 60  0000 L CNN
-F 1 "0.1µF" H 4150 6840 60  0000 L CNN
-F 2 "AVX-06035C104KAT2A:CAPC1608X90N" H 4100 6900 60  0001 C CNN
-F 3 "https://octopart.com/common-parts-library#CPL-CAP-X7R-0603-100NF-50V" H 4100 6900 60  0001 C CNN
-F 4 "CPL-CAP-X7R-0603-100NF-50V" H 4100 6900 60  0001 C CNN "CommonPartLibrary"
-F 5 "AVX" H 4100 6900 60  0001 C CNN "Mfg"
-F 6 "06035C104KAT2A" H 4100 6900 60  0001 C CNN "MfgPart"
-F 7 "Kemet" H 4100 6900 60  0001 C CNN "Mfg2"
-F 8 "C0603C104K5RACTU" H 4100 6900 60  0001 C CNN "Mfg2Part"
-	1    4100 6900
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74HC595 U1
 U 2 1 56CE85CE
 P 1500 6900
@@ -958,8 +976,8 @@ F 1 "74HC595" H 1500 6900 60  0000 C CNB
 F 2 "NXP-74HC595PW_118:SOP65P640X110-16N" H 1500 6900 60  0001 C CNN
 F 3 "https://octopart.com/sn74hc595pwr-texas+instruments-879136" H 1500 6900 60  0001 C CNN
 F 4 "CPL-" H 1500 6900 60  0001 C CNN "CommonPartLibrary"
-F 5 "Texas Instruments" H 1500 6900 60  0001 C CNN "Mfg"
-F 6 "SN74HC595PWR" H 1500 6900 60  0001 C CNN "MfgPart"
+F 5 "Texas Instruments" H 1500 6900 60  0001 C CNN "MFN"
+F 6 "SN74HC595PWR" H 1500 6900 60  0001 C CNN "MFP"
 	2    1500 6900
 	1    0    0    -1  
 $EndComp
@@ -972,8 +990,8 @@ F 1 "74HC257" H 3600 6900 60  0000 C CNB
 F 2 "TI-SN74HC257PW:SOP65P640X120-16N" H 3600 7000 60  0001 C CNN
 F 3 "https://octopart.com/sn74hc257pw-texas+instruments-789437" H 3600 7000 60  0001 C CNN
 F 4 "CPL-" H 3600 6900 60  0001 C CNN "CommonPartLibrary"
-F 5 "Texas Instruments" H 3600 6900 60  0001 C CNN "Mfg"
-F 6 "SN74HC257PW" H 3600 6900 60  0001 C CNN "MfgPart"
+F 5 "Texas Instruments" H 3600 6900 60  0001 C CNN "MFN"
+F 6 "SN74HC257PW" H 3600 6900 60  0001 C CNN "MFP"
 	2    3600 6900
 	1    0    0    -1  
 $EndComp
@@ -986,8 +1004,8 @@ F 1 "10kΩ" V 6750 4550 60  0000 C CNN
 F 2 "CDE_misc:RESCAV_EXBA-10N" H 6600 4600 60  0001 C CNN
 F 3 "https://octopart.com/exb-a10p103j-panasonic-42270834" H 6600 4600 60  0001 C CNN
 F 4 "CPL-ARRB-2512-10KOHM-0.062W*" H 6600 4550 30  0001 C CNN "CommonPartLibrary"
-F 5 "Panasonic" H 6600 4550 60  0001 C CNN "Mfg"
-F 6 "EXB-A10P103J" H 6600 4550 60  0001 C CNN "MfgPart"
+F 5 "Panasonic" H 6600 4550 60  0001 C CNN "MFN"
+F 6 "EXB-A10P103J" H 6600 4550 60  0001 C CNN "MFP"
 	1    6600 4550
 	1    0    0    -1  
 $EndComp
@@ -1038,4 +1056,28 @@ Wire Wire Line
 Wire Wire Line
 	5350 4600 6300 4600
 Connection ~ 3750 4300
+$Comp
+L CAP_NP C2
+U 1 1 5711DF92
+P 4100 6900
+F 0 "C2" H 4150 6950 60  0000 L CNN
+F 1 "0.1µF" H 4150 6840 60  0000 L CNN
+F 2 "AVX-06035C104KAT2A:CAPC1608X90N" H 4100 6900 60  0001 C CNN
+F 3 "https://octopart.com/common-parts-library#CPL-CAP-X7R-0603-100NF-50V" H 4100 6900 60  0001 C CNN
+F 4 "CPL-CAP-X7R-0603-100NF-50V" H 4100 6900 60  0001 C CNN "CommonPartLibrary"
+F 5 "AVX" H 4100 6900 60  0001 C CNN "MFN"
+F 6 "06035C104KAT2A" H 4100 6900 60  0001 C CNN "MFP"
+F 7 "0603 [1608 Metric]" H 4100 6900 60  0001 C CNN "Package ID"
+F 8 "478-5052-1-ND" H 4100 6900 60  0001 C CNN "S1PN"
+F 9 "http://www.digikey.com/product-detail/en/06035C104KAT2A/478-5052-1-ND/" H 4100 6900 60  0001 C CNN "S1PL"
+F 10 "54K2412" H 4100 6900 60  0001 C CNN "S2PN"
+F 11 "http://www.newark.com/avx/06035c104kat2a/ceramic-capacitor-0-1uf-50v-x7r/dp/54K2412" H 4100 6900 60  0001 C CNN "S2PL"
+F 12 "CAP CER 0.1UF 50V 5% X7R 0603" H 4100 6900 60  0001 C CNN "Characteristics"
+F 13 "Capacitor - Bypass" H 4100 6900 60  0001 C CNN "Description"
+F 14 "N" H 4100 6900 60  0001 C CNN "Critical"
+F 15 "ANY" H 4100 6900 60  0001 C CNN "Source"
+F 16 "15WVDC or better, 10% tolerance or better." H 4100 6900 60  0001 C CNN "Notes"
+	1    4100 6900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
